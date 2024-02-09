@@ -12,9 +12,7 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class StreamTest {
-
-    @BeforeAll
+public class StreamTest {                                                             
     public static void setup() {
         // Establecer la cantidad de hilos que se utilizarán
         System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "11");
